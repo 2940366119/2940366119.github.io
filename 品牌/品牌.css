@@ -1,19 +1,24 @@
-*{
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-a, a:link{
+a,
+a:link {
     text-decoration: none;
 }
+
 a:-webkit-any-link {
     cursor: pointer;
 }
+
 body {
     background: #fff;
     color: #363636;
     line-height: 1.2;
 }
+
 .header.head_other {
     position: relative;
     box-shadow: 0px 3px 9px 0px rgba(35, 24, 21, 0.05);
@@ -23,21 +28,26 @@ body {
 .header.head_other a {
     color: #57555b;
 }
-i, em, cite {
+
+i,
+em,
+cite {
     font-style: normal;
 }
+
 .header.head_other .logo {
-    background:url('img/coke1.jpg') no-repeat;
+    background: url('img/coke1.jpg') no-repeat;
 }
 
 .logo {
     width: 157px;
     height: 47px;
-    display:flex;
+    display: flex;
     float: left;
     margin: 27px 0 0;
     background: url('img/coke1.jpg') no-repeat;
 }
+
 .header {
     width: 100%;
     height: auto;
@@ -51,6 +61,7 @@ i, em, cite {
     -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 .header_top {
     width: 100%;
     height: auto;
@@ -59,6 +70,7 @@ i, em, cite {
     position: relative;
     z-index: 9;
 }
+
 .main {
     width: 1200px;
     min-width: 1200px;
@@ -66,6 +78,7 @@ i, em, cite {
     height: auto;
     margin: 0 auto;
 }
+
 .nav {
     width: auto;
     height: auto;
@@ -74,6 +87,7 @@ i, em, cite {
     text-align: right;
     margin-top: 45px;
 }
+
 .nav a {
     width: auto;
     height: 55px;
@@ -88,19 +102,20 @@ i, em, cite {
     padding: 20px 20px 0;
     margin-top: -20px;
 }
-.nav> .nav-list:hover {
+
+.nav>.nav-list:hover {
     color: #e94400;
 }
 
 .clear {
-    display: block!important;
-    float: none!important;
+    display: block !important;
+    float: none !important;
     clear: both;
     overflow: hidden;
-    width: auto!important;
-    height: 0!important;
-    margin: 0 auto!important;
-    padding: 0!important;
+    width: auto !important;
+    height: 0 !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
     font-size: 0;
     line-height: 0;
 }
@@ -113,13 +128,14 @@ i, em, cite {
     margin: 50px auto 30px;
 }
 
-.cp_title span{
+.cp_title span {
     font-size: 30px;
     color: #000000;
     display: block;
-    float:left;
+    float: left;
     margin: 0px 10px 0 0;
 }
+
 .cp_title em {
     font-size: 14px;
     color: #9a999e;
@@ -131,19 +147,23 @@ i, em, cite {
     border-left: 2px solid #8071b3;
 }
 
-i, em, cite{
+i,
+em,
+cite {
     font-style: normal;
 }
+
 .cp_list {
     width: 1200px;
     height: auto;
-    display:block;
-    float:left;
+    display: block;
+    float: left;
     border: 2px solid #eeedf3;
     border-radius: 8px;
     border-bottom: 0px;
     margin: 0px 1px 30px;
 }
+
 .cp_list .cp_box {
     width: 398px;
     height: 370px;
@@ -156,7 +176,12 @@ i, em, cite{
     -webkit-transition: -webkit-box-shadow .3s linear;
     transition: box-shadow .3s linear;
 }
-.cp_box_ys{
+
+.cp_box:hover {
+    border: solid 2px gray;
+}
+
+.cp_box_ys {
     position: absolute;
     left: 11px;
     top: 1px;
@@ -166,29 +191,33 @@ i, em, cite{
     float: right;
     z-index: 3;
 }
-.cp_box_ys div{
-    width:24px; 
-    height:24px; 
-    border-radius:23px; 
+
+.cp_box_ys div {
+    width: 24px;
+    height: 24px;
+    border-radius: 23px;
     display: block;
     float: left;
-    margin:0 5px 5px 0; 
-    border:1px solid #efedf4;
+    margin: 0 5px 5px 0;
+    border: 1px solid #efedf4;
     cursor: pointer;
 }
-.cp_box_ys div.active{
-    width:24px; 
-    height:24px;
-     border:1px solid #9a999d;
+
+.cp_box_ys div.active {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #9a999d;
 }
-.cp_box_ys div i{
-    width:14px;
-    height:14px;
-    border-radius:14px;
+
+.cp_box_ys div i {
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
     display: block;
     float: left;
-    margin:5px 5px; 
+    margin: 5px 5px;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -219,6 +248,7 @@ p {
     text-align: center;
     line-height: 18px;
 }
+
 .cp_list span em {
     color: #9a999d;
     font-size: 12px;
@@ -233,7 +263,9 @@ p {
     overflow: visible;
     text-align: center;
 }
-a, a:link {
+
+a,
+a:link {
     text-decoration: none;
 }
 
@@ -243,8 +275,8 @@ ul {
 
 .footer {
     width: 100%;
-    height: 109px;
-    display:block;
+    height: 100%;
+    display: block;
     float: left;
     padding-top: 0px;
     margin-top: 0px;
@@ -253,64 +285,74 @@ ul {
     background: #eeeeee;
 }
 
-.footer-left-logo{
+.footer-left-logo {
     width: 46px;
     height: 46px;
     float: left;
     margin-right: 8px;
 }
-.footer-left-message{
+
+.footer-left-message {
     float: left;
 }
-.footer-left-message li{
-    
+
+.footer-left-message li {
+
     float: left;
     border-right: 1px solid #575757;
     padding: 0 8px 0;
 }
-.footer-left-message li:last-child{
+
+.footer-left-message li:last-child {
     border-right: none;
 }
-.footer-left-message li a{
+
+.footer-left-message li a {
     color: #575757;
     font-size: 14;
     height: 14px;
     line-height: 14px;
     display: block;
 }
-.about{
+
+.about {
     overflow: hidden;
     padding: 3px 0 10px;
 }
-.contact li{
+
+.contact li {
     font-size: 12px;
     color: #6D6D6D;
     height: 14px;
     line-height: 14px;
 }
-.right-title{
+
+.right-title {
     color: #575757;
     font-size: 14px;
-    
+
 }
-.right-tel{
+
+.right-tel {
     color: #E84519;
     font-size: 26px;
     margin: auto;
 }
-.right-time{
+
+.right-time {
     color: #575757;
     font-size: 12px;
 }
-.footer-left{
+
+.footer-left {
     overflow: hidden;
     float: left;
     margin-top: 50px;
     margin-left: 20px;
 }
-.footer-right{
+
+.footer-right {
     float: right;
     margin-top: 10px;
     margin-right: 20px;
 }
-

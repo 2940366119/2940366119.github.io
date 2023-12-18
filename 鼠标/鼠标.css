@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -156,6 +157,9 @@ i, em, cite{
     -webkit-transition: -webkit-box-shadow .3s linear;
     transition: box-shadow .3s linear;
 }
+.cp_box:hover {
+    border: solid 2px gray;
+}
 .cp_box_ys{
     position: absolute;
     left: 11px;
@@ -243,7 +247,7 @@ ul {
 
 .footer {
     width: 100%;
-    height: 109px;
+    height: 100%;
     display:block;
     float: left;
     padding-top: 0px;
